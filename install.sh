@@ -93,7 +93,7 @@ BGGREEN='\033[42m'
 N='\033[0m' 
 echo -en "${LRED}[${BOLD}${WHITE}Debased-Termux${LRED}]${GRAY}: ${WHITE}Удаление Termux-Debian... ${N}\n"
 echo -en "${LRED}[${BOLD}${WHITE}Debased-Termux${LRED}]${GRAY}: ${YELLOW}Будут удалены все данные которые вы записывали на Debased \n"
-rm -r debian-binds
+rm -r binds
 echo -en "${LRED}[${BOLD}${WHITE}Debased-Termux${LRED}]${GRAY}: ${WHITE}Удаление файловой системы... \n"
 rm -r file-system
 echo -en "${LRED}[${BOLD}${WHITE}Debased-Termux${LRED}]${GRAY}: ${WHITE}Удаление установочных файлов... \n"
