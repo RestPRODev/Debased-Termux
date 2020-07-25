@@ -27,7 +27,7 @@ if [ "$first" != 1 ];then
 		*)
 		echo -en "${LRED}[${BOLD}${WHITE}Debased-Termux${LRED}]${GRAY}: ${BGRED}${WHITE}Ваша архитектура не поддерживается ${N}\n"
 		esac
-		wget "https://github.com/RestPRODev/debased-termux/raw/master/${arc1}/debased-${archurl}.tar.xz" -O $tarball
+		wget "https://github.com/RestPRODev/Debased-Termux/raw/master/${arc1}/debased-${archurl}.tar.xz" -O $tarball
 	fi
 	cur=`pwd`
 	mkdir -p "$folder"
