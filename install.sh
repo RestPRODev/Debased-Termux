@@ -1,4 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bashx
+
+apt-get update
+apt-get install proot
+
 BOLD='\033[1m'
 RED='\033[0;31m' 
 LRED='\033[1;31m'
