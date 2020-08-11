@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bashx
 
 apt-get update
-apt-get install proot
+apt-get install proot openssl -y
 
 BOLD='\033[1m'
 RED='\033[0;31m' 
